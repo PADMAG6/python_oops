@@ -12,6 +12,23 @@ did_pass = a.check_pass_fail()
 print(did_pass)
 
 
+---------------------------class-objects--------------------
+lass Human:
+    def __init__(self,c,h):
+        self.color= c
+        self.height = h
+    def run(self):
+        print("Running---")
+    def walk(self):
+        print("Walk------")
+
+obj = Human('White',4.11)
+obj.run()
+print(obj.color,obj.height)
+obj2 = Human("Red", 3.1)
+print(obj2.color,obj2.height)
+
+
 
 __________________triangle_perimeter________________--
 class Triangle:
@@ -33,6 +50,11 @@ class Polygon:
         self.sides = sides
 
     def display_info(self):
+        
+        
+        
+        
+        
         print("A polygon is a two dimensional shape with straight lines")
 
     def get_perimeter(self):
